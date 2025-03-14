@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.profile-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.profile-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.profile-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-container p {
+    color: #555;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.hire-btn {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+    background-color: #0056b3;
+}
+
+#daily-rate {
+    margin-top: 10px;
+    color: #28a745;
+    font-weight: bold;
+}
